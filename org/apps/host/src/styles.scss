@@ -40,6 +40,44 @@ body {
 }
 
 /* Navigation Styles */
+.remote-menu {
+  background-color: var(--vscode-sidebar) !important;
+  border-bottom: 1px solid var(--vscode-border) !important;
+  
+  a {
+    color: var(--vscode-text) !important;
+    
+    &:hover {
+      background-color: var(--vscode-hover) !important;
+    }
+    
+    &.active {
+      background-color: var(--vscode-selection) !important;
+      color: var(--vscode-button-text) !important;
+    }
+  }
+}
+
+/* Portfolio Navigation */
+.portfolio-nav {
+  background-color: var(--vscode-sidebar) !important;
+  border: 1px solid var(--vscode-border) !important;
+  
+  a {
+    color: var(--vscode-text) !important;
+    
+    &:hover {
+      background-color: var(--vscode-hover) !important;
+    }
+    
+    &.active {
+      background-color: var(--vscode-selection) !important;
+      color: var(--vscode-button-text) !important;
+    }
+  }
+}
+
+/* Playground Navigation */
 .playground-nav {
   background-color: var(--vscode-sidebar) !important;
   border: 1px solid var(--vscode-border) !important;
@@ -145,11 +183,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Containers */
+.portfolio-container,
 .playground-container {
   background-color: var(--vscode-background);
   color: var(--vscode-text);
 }
 
+.portfolio-content,
 .playground-content {
   background-color: var(--vscode-background);
   color: var(--vscode-text);

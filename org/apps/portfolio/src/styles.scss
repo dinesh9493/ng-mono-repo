@@ -40,7 +40,7 @@ body {
 }
 
 /* Navigation Styles */
-.playground-nav {
+.portfolio-nav {
   background-color: var(--vscode-sidebar) !important;
   border: 1px solid var(--vscode-border) !important;
   
@@ -145,12 +145,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Containers */
-.playground-container {
+.portfolio-container {
   background-color: var(--vscode-background);
   color: var(--vscode-text);
 }
 
-.playground-content {
+.portfolio-content {
   background-color: var(--vscode-background);
   color: var(--vscode-text);
 }
